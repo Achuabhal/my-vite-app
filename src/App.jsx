@@ -140,7 +140,7 @@ function App() {
   }
 
   const globalTeacherConflict = Array.from({ length: 6 }, () => ({}))
-  const semesterSchedules = semestersSubjects.map((semester) => generateSchedule(semester, globalTeacherConflict))
+  const semesterSchedules = semestersSubjects.map((semester) => generateSchedule(semester, globalTeacherConflict)) ///oro subkect itill idd koduthidaan ithlie kode varune elam store cheyum
 
   return (
     <div className="p-4">

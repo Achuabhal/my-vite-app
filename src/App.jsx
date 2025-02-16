@@ -2,53 +2,78 @@ import React from "react"
 
 const semestersSubjects = [
   [
-    { name: "Math", teacher: "Teacher1", repeat: 8 },
-    { name: "Physics", teacher: "Teacher2", repeat: 4 },
-    { name: "Chemistry", teacher: "Teacher3", repeat: 6 },
-    { name: "Biology", teacher: "Teacher4", repeat: 8 },
-    { name: "History", teacher: "Teacher5", repeat: 8 },
-    { name: "Python Lab", teacher: "Teacher6", repeat: 1, isLab: true },
+    { "name": "Project Lab", "teacher": "Teacher1", "repeat": 4, },
+    { "name": "Sports", "teacher": "Teacher2", "repeat": 3 },
+    { "name": "Mob", "teacher": "Teacher3", "repeat": 4 },
+    { "name": "Industrial Specialization", "teacher": "Teacher4", "repeat": 3 },
+    { "name": "ST", "teacher": "Teacher5", "repeat": 4 },
+    { "name": "ML Lab", "teacher": "Teacher6", "repeat": 1, "isLab": true },
+    { "name": "EC", "teacher": "Teacher7", "repeat": 3 },
+    { "name": "ML", "teacher": "Teacher8", "repeat": 3 },
+    { "name": "Library", "teacher": "Teacher9", "repeat": 2 },
+    { "name": "Mob Lab", "teacher": "Teacher10", "repeat": 1, "isLab": true },
   ],
-  [
-    { name: "Algebra", teacher: "Teacher7", repeat: 7 },
-    { name: "Mechanics", teacher: "Teacher1", repeat: 7 },
-    { name: "Organic Chemistry", teacher: "Teacher2", repeat: 7 },
-    { name: "Zoology", teacher: "Teacher3", repeat: 6 },
-    { name: "World History", teacher: "Teacher4", repeat: 7 },
-    { name: "Java Lab", teacher: "Teacher5", repeat: 1, isLab: true },
+[
+    { "name": "Project Lab", "teacher": "Teacher1", "repeat": 2, "isLab": true },
+    { "name": "Sports", "teacher": "Teacher2", "repeat": 3 },
+    { "name": "Mob", "teacher": "Teacher3", "repeat": 4 },
+    { "name": "Industrial Specialization", "teacher": "Teacher4", "repeat": 3 },
+    { "name": "ST", "teacher": "Teacher5", "repeat": 4 },
+    { "name": "ML Lab", "teacher": "Teacher6", "repeat": 1, "isLab": true },
+    { "name": "EC", "teacher": "Teacher7", "repeat": 3 },
+    { "name": "ML", "teacher": "Teacher8", "repeat": 3 },
+    { "name": "Library", "teacher": "Teacher9", "repeat": 2 },
+    { "name": "Mob Lab", "teacher": "Teacher10", "repeat": 1, "isLab": true },
+      ],
+[
+    { "name": "Project Lab", "teacher": "Teacher1", "repeat": 2, "isLab": true },
+    { "name": "Sports", "teacher": "Teacher2", "repeat": 3 },
+    { "name": "Mob", "teacher": "Teacher3", "repeat": 4 },
+    { "name": "Industrial Specialization", "teacher": "Teacher4", "repeat": 3 },
+    { "name": "ST", "teacher": "Teacher5", "repeat": 4 },
+    { "name": "ML Lab", "teacher": "Teacher6", "repeat": 1, "isLab": true },
+    { "name": "EC", "teacher": "Teacher7", "repeat": 3 },
+    { "name": "ML", "teacher": "Teacher8", "repeat": 3 },
+    { "name": "Library", "teacher": "Teacher9", "repeat": 2 },
+    { "name": "Mob Lab", "teacher": "Teacher10", "repeat": 1, "isLab": true },
   ],
-  [
-    { name: "Calculus", teacher: "Teacher6", repeat: 7 },
-    { name: "Thermodynamics", teacher: "Teacher7", repeat: 7 },
-    { name: "Inorganic Chemistry", teacher: "Teacher1", repeat: 7 },
-    { name: "Botany", teacher: "Teacher2", repeat: 6 },
-    { name: "Ancient Civilizations", teacher: "Teacher3", repeat: 7 },
-    { name: "binet Lab", teacher: "Teacher4", repeat: 1, isLab: true },
-  ],
-  [
-    { name: "Linear Algebra", teacher: "Teacher5", repeat: 7 },
-    { name: "Fluid Mechanics", teacher: "Teacher6", repeat: 7 },
-    { name: "Biochemistry", teacher: "Teacher7", repeat: 7 },
-    { name: "Microbiology", teacher: "Teacher1", repeat: 6 },
-    { name: "Modern History", teacher: "Teacher2", repeat: 7 },
-    { name: "Data Structures Lab", teacher: "Teacher3", repeat: 1, isLab: true },
-  ],
-  [
-    { name: "Differential Equations", teacher: "Teacher4", repeat: 7 },
-    { name: "Quantum Mechanics", teacher: "Teacher5", repeat: 7 },
-    { name: "Physical Chemistry", teacher: "Teacher6", repeat: 7 },
-    { name: "Genetics", teacher: "Teacher7", repeat: 6 },
-    { name: "Medieval History", teacher: "Teacher1", repeat: 7 },
-    { name: "Machine Learning Lab", teacher: "Teacher2", repeat: 1, isLab: true },
-  ],
-  [
-    { name: "Statistics", teacher: "Teacher3", repeat: 7 },
-    { name: "Electrodynamics", teacher: "Teacher4", repeat: 7 },
-    { name: "Analytical Chemistry", teacher: "Teacher5", repeat: 7 },
-    { name: "Ecology", teacher: "Teacher6", repeat: 6 },
-    { name: "Contemporary History", teacher: "Teacher7", repeat: 7 },
-    { name: "Web Development Lab", teacher: "Teacher1", repeat: 1, isLab: true },
-  ],
+[
+    { "name": "Project Lab", "teacher": "Teacher1", "repeat": 2, "isLab": true },
+    { "name": "Sports", "teacher": "Teacher2", "repeat": 3 },
+    { "name": "Mob", "teacher": "Teacher3", "repeat": 4 },
+    { "name": "Industrial Specialization", "teacher": "Teacher4", "repeat": 3 },
+    { "name": "ST", "teacher": "Teacher5", "repeat": 4 },
+    { "name": "ML Lab", "teacher": "Teacher6", "repeat": 1, "isLab": true },
+    { "name": "EC", "teacher": "Teacher7", "repeat": 3 },
+    { "name": "ML", "teacher": "Teacher8", "repeat": 3 },
+    { "name": "Library", "teacher": "Teacher9", "repeat": 2 },
+    { "name": "Mob Lab", "teacher": "Teacher10", "repeat": 1, "isLab": true },
+],
+[
+
+    { "name": "Project Lab", "teacher": "Teacher1", "repeat": 2, "isLab": true },
+    { "name": "Sports", "teacher": "Teacher2", "repeat": 3 },
+    { "name": "Mob", "teacher": "Teacher3", "repeat": 4 },
+    { "name": "Industrial Specialization", "teacher": "Teacher4", "repeat": 3 },
+    { "name": "ST", "teacher": "Teacher5", "repeat": 4 },
+    { "name": "ML Lab", "teacher": "Teacher6", "repeat": 1, "isLab": true },
+    { "name": "EC", "teacher": "Teacher7", "repeat": 3 },
+    { "name": "ML", "teacher": "Teacher8", "repeat": 3 },
+    { "name": "Library", "teacher": "Teacher9", "repeat": 2 },
+    { "name": "Mob Lab", "teacher": "Teacher10", "repeat": 1, "isLab": true },
+
+    { "name": "Project Lab", "teacher": "Teacher1", "repeat": 2, "isLab": true },
+    { "name": "Sports", "teacher": "Teacher2", "repeat": 3 },
+    { "name": "Mob", "teacher": "Teacher3", "repeat": 4 },
+    { "name": "Industrial Specialization", "teacher": "Teacher4", "repeat": 3 },
+    { "name": "ST", "teacher": "Teacher5", "repeat": 4 },
+    { "name": "ML Lab", "teacher": "Teacher6", "repeat": 1, "isLab": true },
+    { "name": "EC", "teacher": "Teacher7", "repeat": 3 },
+    { "name": "ML", "teacher": "Teacher8", "repeat": 3 },
+    { "name": "Library", "teacher": "Teacher9", "repeat": 2 },
+    { "name": "Mob Lab", "teacher": "Teacher10", "repeat": 1, "isLab": true }
+],
+
 ];
 
 function shuffleArray(array) {
@@ -80,16 +105,22 @@ function App() {
         subjectsPool.sort((a, b) => {
           const countA = countSubjectOccurrences(schedule[day], a)
           const countB = countSubjectOccurrences(schedule[day], b)
+          console.log(`Comparing: ${a.name} (${countA} times) vs ${b.name} (${countB} times)`);
+
           return countA - countB
         })
 
         for (let i = 0; i < subjectsPool.length; i++) {
           const subject = subjectsPool[i]
-          if (countSubjectOccurrences(schedule[day], subject) >= 2) {
-            continue
+          if (countSubjectOccurrences(schedule[day], subject) >= 1) {     /// not more than 2 doble subject at the smae time 
+            continue 
           }
 
           if (subject.isLab) {
+             const labScheduled = schedule[day].some((s) => s && s.isLab);
+  if (labScheduled) {
+    continue;
+   } // Skip assigning another lab if one is already set for the day
             if (
               period < 4 &&
               schedule[day][period + 1] === null &&
@@ -132,6 +163,7 @@ function App() {
         if (!assigned) {
           subjectsPool = semester.flatMap((subject) => Array(subject.repeat).fill(subject))
           subjectsPool = shuffleArray(subjectsPool)
+          period--
         }
       }
     }

@@ -105,7 +105,7 @@ function App() {
         subjectsPool.sort((a, b) => {
           const countA = countSubjectOccurrences(schedule[day], a)
           const countB = countSubjectOccurrences(schedule[day], b)
-          console.log(`Comparing: ${a.name} (${countA} times) vs ${b.name} (${countB} times)`);
+        
 
           return countA - countB
         })
@@ -121,6 +121,7 @@ function App() {
   if (labScheduled) {
     continue;
    } // Skip assigning another lab if one is already set for the day
+   
             if (
               period < 4 &&
               schedule[day][period + 1] === null &&
